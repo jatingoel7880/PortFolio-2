@@ -23,20 +23,20 @@ const Projects = () => {
       id: 2,
       title: "Real-time Chat App",
       description: "Built a cross-platform real-time chat application using React Native. Integrated Firebase Authentication with Google Sign-In, reduced login failures by 40% through robust authentication, implemented push notifications using Firebase Cloud Messaging (FCM), and increased user engagement through real-time notifications.",
-      image: "https://via.placeholder.com/400x250/1a1a1a/ffffff?text=Chat+App",
+      image: "/images/chat/login.jpg",
       technologies: ["React Native", "Node.js", "Firebase", "Socket.IO", "MongoDB", "FCM"],
-      github: "https://github.com/yourusername/chat-app",
-      live: "https://chat-app-demo.com",
+      github: "https://github.com/jatingoel7880/react-native-chat-app-firestore",
+      // live: "https://chat-app-demo.com",
       category: "Personal Project"
     },
     {
       id: 3,
       title: "Netflix GPT",
       description: "Developed a Netflix clone with AI-powered movie recommendations. Integrated Gemini API for intelligent content suggestions, implemented Firebase authentication and Redux state management, added dynamic movie browsing with TMDB integration, and created interactive UI with hover trailers and instant previews.",
-      image: "https://via.placeholder.com/400x250/1a1a1a/ffffff?text=Netflix+GPT",
+      image: "/images/netflix/login.png",
       technologies: ["React", "Redux", "Firebase", "Gemini API", "TMDB API", "Tailwind CSS"],
-      github: "https://github.com/yourusername/netflix-gpt",
-      live: "https://netflix-gpt-demo.com",
+      github: "https://github.com/jatingoel7880/Netflix_App",
+      live: "https://netflix-app-0pab.onrender.com/",
       category: "Personal Project"
     }
   ];
