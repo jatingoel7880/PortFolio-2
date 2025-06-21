@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { FaDownload, FaBars, FaTimes } from 'react-icons/fa';
+import JGLogo from '../JGLogo.svg';
 import './Header.css';
 
 const Header = ({ activeSection, scrollToSection }) => {
@@ -27,8 +28,8 @@ const Header = ({ activeSection, scrollToSection }) => {
   const handleResumeDownload = () => {
     // Replace with your actual resume file path
     const link = document.createElement('a');
-    link.href = '/resume.pdf'; // Add your resume file to public folder
-    link.download = 'YourName_Resume.pdf';
+    link.href = '/Jatin_Goel_Resume.pdf'; // Add your resume file to public folder
+    link.download = 'Jatin_Goel_Resume.pdf';
     link.click();
   };
 
@@ -45,7 +46,7 @@ const Header = ({ activeSection, scrollToSection }) => {
           whileHover={{ scale: 1.05 }}
           onClick={() => scrollToSection('home')}
         >
-          <span className="logo-text">Portfolio</span>
+          <img src={JGLogo} alt="JG Logo" className="logo" />
         </motion.div>
 
         <nav className={`nav ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
@@ -89,4 +90,4 @@ const Header = ({ activeSection, scrollToSection }) => {
   );
 };
 
-export default Header; 
+export default Header;
