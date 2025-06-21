@@ -73,8 +73,8 @@ const About = () => {
                   <FaRocket />
                 </div>
                 <div className="stat-content">
-                  <h4>20+</h4>
-                  <p>Projects</p>
+                  <h4>Continuous</h4>
+                  <p>Learning</p>
                 </div>
               </div>
               <div className="stat-item">
